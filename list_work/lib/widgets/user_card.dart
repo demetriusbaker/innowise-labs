@@ -89,7 +89,7 @@ class UserCard extends StatelessWidget {
               style: TextStyle(color: Colors.grey[500]),
               softWrap: false,
               maxLines: 1,
-              overflow: TextOverflow.ellipsis, // new
+              overflow: TextOverflow.ellipsis,
             ),
           ),
       ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:list_work/pages/favorites2_page.dart';
 import 'package:list_work/pages/favorites_page.dart';
 import 'package:list_work/pages/music_page.dart';
 import 'package:list_work/pages/news_page.dart';
@@ -19,7 +20,7 @@ class _MenuState extends State<Menu> {
     MusicPage(),
     PlacesPage(),
     NewsPage(),
-    FavoritesPage()
+    Favorites2Page()
   ];
 
 
