@@ -122,6 +122,8 @@ class _HomePageState extends State<HomePage> {
     _isolate1 = null;
     _isolate2?.kill();
     _isolate2 = null;
+    _isolate3?.kill();
+    _isolate3 = null;
     super.dispose();
   }
 }
